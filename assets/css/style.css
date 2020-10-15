@@ -77,8 +77,8 @@ p {
     margin-left: 20px;
 }
 
-/* grouped these into a single css rule, consolidated all into singular class "content-block" */
-.content-block {
+/* grouped these into a single css rule using ancestor selectors */
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,15 +87,16 @@ p {
     color: #ffffff;
 }
 
-/* consolidated class="content-block" img, h2 */
-.content-block img {
+
+.content img {
     max-height: 200px;
 }
 
-.content-block h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 
 /* sidebar */
@@ -111,22 +112,25 @@ p {
 }
 
 /* grouped benefit-lead, benefit-brand, and benefit-cost selectors into single css rule */
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
