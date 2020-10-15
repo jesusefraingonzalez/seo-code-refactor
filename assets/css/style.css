@@ -69,12 +69,36 @@ p {
     margin-left: 25px;
 }
 
+
+/* main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* grouped these into a single css rule, consolidated all into singular class "content-block" */
+.content-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* consolidated class="content-block" img, h2 */
+.content-block img {
+    max-height: 200px;
+}
+
+.content-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -124,45 +148,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* grouped these into a single css rule, consolidated all into singular class "content-block" */
-.content-block {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-/* consolidated content-block class img, h2 */
-.content-block img {
-    max-height: 200px;
-}
-
-/* .online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-.content-block h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 .footer {
     padding: 30px;
