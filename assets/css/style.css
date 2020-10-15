@@ -111,7 +111,7 @@ p {
     background-color: #2589bd;
 }
 
-/* grouped benefit-lead, benefit-brand, and benefit-cost selectors into single css rule */
+/* grouped benefit-lead, benefit-brand, and benefit-cost selectors into benefits ancestor selectors */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
