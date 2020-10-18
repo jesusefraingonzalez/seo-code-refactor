@@ -16,9 +16,26 @@ Html is written using semantic elements to make the structure easy to understand
 ```
 ## Files and Directory
 
-**assets/**: contains css/ and images directories
+```
+assets/ : contains css/ and images directories
 
-**css//**:Contains css stylesheet
+css/ : contains css stylesheet
 
-**images/**:contains the images used in the webpage
+images/ : contains the images used in the webpage
+```
 
+```
+assets
+    css
+        styles.css
+    images
+        brand-awareness.png
+        cost-management.png
+        digital-marketing-meeting.jpg
+        lead-generation.png
+        online-reputation-management.jpg
+        search-engine-optimization.jpg
+        social-media-marketing.jpg
+index.html
+README.md
+```
