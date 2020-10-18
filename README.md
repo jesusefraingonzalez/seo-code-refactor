@@ -39,3 +39,11 @@ assets
 index.html
 README.md
 ```
+
+<img src="screenshots/screen1.png" alt="screenshot 1">
+
+<img src="screenshots/screen2.png" alt="screenshot 2">
+ 
+! [screenshot] (../screenshots/screen1.png?raw=true)
+
+! [screenshot] (../images/screen2.png?raw=true)
