@@ -51,3 +51,5 @@ README.md
 
 ![screenshot](screenshots/screen2.png?raw=true)
 
+## Link
+[Live link](https://jesusefraingonzalez.github.io/seo-code-refactor/)
